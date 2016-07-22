@@ -1,0 +1,31 @@
+package com.tanmaysarkar.demo.page;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.tanmaysarkar.demo.Base;
+
+public class Sample_01_ extends Base{
+	
+	public WebDriver driver;
+	
+	public Sample_01_(WebDriver driver)
+	{
+		this.driver = driver;
+	}
+
+	public By fname = By.id("ts_first_name");
+	
+	public WebElement getFname()
+	{
+		return driver.findElement(fname);
+	}
+	
+public By fname = By.id("ts_first_name");
+	
+	public WebElement getFname()
+	{
+		return driver.findElement(fname);
+	}
+}

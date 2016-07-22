@@ -1,0 +1,7 @@
+package com.tanmaysarkar.demo.business;
+
+import com.tanmaysarkar.demo.page.Sample_01_;
+
+public class Sample_01 extends Sample_01_ {
+
+}

@@ -1,0 +1,7 @@
+package com.tanmaysarkar.demo.page;
+
+import com.tanmaysarkar.demo.Base;
+
+public class Sample_01_ extends Base{
+
+}

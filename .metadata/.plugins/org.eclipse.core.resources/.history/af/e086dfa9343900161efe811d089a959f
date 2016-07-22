@@ -1,0 +1,12 @@
+package com.tanmaysarkar.demo.regression;
+
+import org.testng.annotations.Test;
+
+public class myTest1 {
+
+	@Test
+	public void test01()
+	{
+		Base b = new Base();
+	}
+}

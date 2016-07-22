@@ -1,0 +1,14 @@
+package Components;
+
+import org.openqa.selenium.WebElement;
+
+public class GoogleHome {
+	
+	private WebElement searchbox;
+	
+	
+	public void enterText()
+	{
+		searchbox.sendKeys("Myntra");
+	}
+}

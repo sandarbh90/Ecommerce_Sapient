@@ -1,0 +1,33 @@
+package scripts;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+import Components.GoogleHome;
+
+public class NewTest {
+	
+  WebDriver dr = null;
+  
+  @Test
+  public void f() {
+	  
+	  GoogleHome googleHomeObj = new GoogleHome(dr);
+	  googleHomeObj.enterText();
+	  
+  }
+  
+  @BeforeTest
+  public void beforeTest() {
+	  dr = new FirefoxDriver();
+	  dr.get("www.google.com");
+  }
+
+  @AfterTest
+  public void afterTest() {
+  }
+
+}

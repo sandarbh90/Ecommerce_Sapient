@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestngSuiteExample1" duration-ms="56875" started-at="2016-07-22T04:36:36Z" finished-at="2016-07-22T04:37:33Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="56875" started-at="2016-07-22T04:36:36Z" finished-at="2016-07-22T04:37:33Z">
+      <class name="com.somedomain.TestScript.VerifyHomepageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.somedomain.TestScript.VerifyHomepageTest@7e0b0338]" name="setup" is-config="true" duration-ms="28517" started-at="2016-07-22T10:06:36Z" finished-at="2016-07-22T10:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginWithExistingUser()[pri:0, instance:com.somedomain.TestScript.VerifyHomepageTest@7e0b0338]" name="LoginWithExistingUser" duration-ms="5152" started-at="2016-07-22T10:07:05Z" finished-at="2016-07-22T10:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithExistingUser -->
+        <test-method status="PASS" signature="verifyActiveLinksCount()[pri:0, instance:com.somedomain.TestScript.VerifyHomepageTest@7e0b0338]" name="verifyActiveLinksCount" duration-ms="18988" started-at="2016-07-22T10:07:10Z" finished-at="2016-07-22T10:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActiveLinksCount -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.somedomain.TestScript.VerifyHomepageTest@7e0b0338]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2016-07-22T10:07:10Z" finished-at="2016-07-22T10:07:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithExistingUser status=SUCCESS method=VerifyHomepageTest.LoginWithExistingUser()[pri:0, instance:com.somedomain.TestScript.VerifyHomepageTest@7e0b0338] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="verifyCategories()[pri:0, instance:com.somedomain.TestScript.VerifyHomepageTest@7e0b0338]" name="verifyCategories" duration-ms="3750" started-at="2016-07-22T10:07:29Z" finished-at="2016-07-22T10:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategories -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.somedomain.TestScript.VerifyHomepageTest@7e0b0338]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2016-07-22T10:07:29Z" finished-at="2016-07-22T10:07:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyActiveLinksCount status=SUCCESS method=VerifyHomepageTest.verifyActiveLinksCount()[pri:0, instance:com.somedomain.TestScript.VerifyHomepageTest@7e0b0338] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.somedomain.TestScript.VerifyHomepageTest@7e0b0338]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2016-07-22T10:07:32Z" finished-at="2016-07-22T10:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCategories status=SUCCESS method=VerifyHomepageTest.verifyCategories()[pri:0, instance:com.somedomain.TestScript.VerifyHomepageTest@7e0b0338] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.somedomain.TestScript.VerifyHomepageTest@7e0b0338]" name="afterClass" is-config="true" duration-ms="468" started-at="2016-07-22T10:07:32Z" finished-at="2016-07-22T10:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.somedomain.TestScript.VerifyHomepageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- TestngSuiteExample1 -->
+</testng-results>

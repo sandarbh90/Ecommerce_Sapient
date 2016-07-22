@@ -1,0 +1,23 @@
+package Components;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class GoogleHome {
+	
+	WebDriver dr = null;
+	private WebElement searchbox;
+	
+	GoogleHome(WebDriver driver)
+	{
+		dr = driver;
+	}
+	
+	
+	public void enterText()
+	{
+		searchbox = dr.findElement(By.id(""));
+		searchbox.sendKeys("Myntra");
+	}
+}

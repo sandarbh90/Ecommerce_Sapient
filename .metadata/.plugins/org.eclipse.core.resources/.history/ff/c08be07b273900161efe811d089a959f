@@ -1,0 +1,9 @@
+package Components;
+
+import org.openqa.selenium.WebElement;
+
+public class GoogleHome {
+	
+	private WebElement searchbox;
+
+}

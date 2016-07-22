@@ -1,0 +1,11 @@
+package com.tanmaysarkar.demo.page;
+
+import org.openqa.selenium.WebDriver;
+
+import com.tanmaysarkar.demo.Base;
+
+public class Sample_01_ extends Base{
+	
+	public WebDriver driver;
+
+}

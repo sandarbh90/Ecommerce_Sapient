@@ -1,0 +1,15 @@
+package com.tanmaysarkar.demo.regression;
+
+import org.testng.annotations.Test;
+
+import com.tanmaysarkar.demo.Base;
+
+public class myTest1 {
+
+	@Test
+	public void test01()
+	{
+		Base b = new Base();
+		WebDriver driver = b.getDriver();
+	}
+}
